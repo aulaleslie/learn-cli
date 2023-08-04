@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" modified="2023-08-04T07:49:43.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HIWf7tpLJ3-8ndoAzUFo" version="21.6.6" type="device">
+  <diagram id="7y7cLIP4Oc_uKpwFZ8Lj" name="Page-1">
+    <mxGraphModel dx="1900" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BU251l8DeLpKYHIOTWGP-1" value="DB" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-2" value="User" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-5" value="ATM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-5" target="BU251l8DeLpKYHIOTWGP-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="190" as="sourcePoint" />
+            <mxPoint x="70" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-5" target="BU251l8DeLpKYHIOTWGP-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="630" as="sourcePoint" />
+            <mxPoint x="220" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-8" target="BU251l8DeLpKYHIOTWGP-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-8" value="PROSES DB" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-9" target="BU251l8DeLpKYHIOTWGP-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-9" value="Buka Koneksi&lt;br&gt;(read file)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-11" target="BU251l8DeLpKYHIOTWGP-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-11" target="BU251l8DeLpKYHIOTWGP-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-11" value="Store Ke variable" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-13" value="Tutup Koneski&lt;br&gt;(overwrite file)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-15" value="Akses Data&lt;br&gt;(Users)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-17" target="BU251l8DeLpKYHIOTWGP-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-17" value="Proses Aplikasi" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-18" target="BU251l8DeLpKYHIOTWGP-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-18" value="Terima Input" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-20" target="BU251l8DeLpKYHIOTWGP-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-20" target="BU251l8DeLpKYHIOTWGP-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-20" value="Input Login&lt;br&gt;(Terima Username)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-20" target="BU251l8DeLpKYHIOTWGP-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="650" as="sourcePoint" />
+            <mxPoint x="-60" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-23" value="Baca User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BU251l8DeLpKYHIOTWGP-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.25" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-24" value="Kalo Ada Selesai&lt;br&gt;(output berhasil login)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-26" value="Kalo ga ada selesai&lt;br&gt;(buat baru output berhasil login)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="190" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-26" target="BU251l8DeLpKYHIOTWGP-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="630" as="sourcePoint" />
+            <mxPoint x="220" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-29" value="Simpan User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BU251l8DeLpKYHIOTWGP-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.3877" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-30" target="BU251l8DeLpKYHIOTWGP-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-30" value="Proses Bisnis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-31" value="LoggedIn User" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="40" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-24" target="BU251l8DeLpKYHIOTWGP-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="1060" as="sourcePoint" />
+            <mxPoint x="-200" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-26" target="BU251l8DeLpKYHIOTWGP-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="970" as="sourcePoint" />
+            <mxPoint x="-6" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-35" value="Withdraw&lt;br&gt;Deposit&lt;br&gt;Transfer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="350" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-36" target="BU251l8DeLpKYHIOTWGP-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-36" value="Input Deposit&lt;br&gt;(Terima Nominal)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-18" target="BU251l8DeLpKYHIOTWGP-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="610" as="sourcePoint" />
+            <mxPoint x="90" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="BU251l8DeLpKYHIOTWGP-40" target="BU251l8DeLpKYHIOTWGP-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="930" as="sourcePoint" />
+            <mxPoint x="-220" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-40" target="BU251l8DeLpKYHIOTWGP-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-40" target="BU251l8DeLpKYHIOTWGP-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-40" value="Cek LoggedInUser" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-42" value="Kalo Ada panggil withdraw" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="590" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-44" value="Kalo ga ada&lt;br&gt;(kasi pesan error)&lt;br&gt;Done" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-46" target="BU251l8DeLpKYHIOTWGP-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-46" value="WIthdraw&lt;br&gt;(terima user dan nominal)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="590" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BU251l8DeLpKYHIOTWGP-42" target="BU251l8DeLpKYHIOTWGP-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="900" as="sourcePoint" />
+            <mxPoint x="630" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BU251l8DeLpKYHIOTWGP-49" value="Selesai" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="710" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
