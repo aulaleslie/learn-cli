@@ -1,5 +1,7 @@
 package models
 
 type User struct {
-	Name string
+	Name    string
+	Balance int64
+	IsLogin bool
 }
